@@ -83,7 +83,7 @@ struct LoginView: View {
                     .font(.custom("Muli-Bold", size: 16))
                     .foregroundColor(.black)
                     
-                TextField("Password", text: $passwordText)
+                SecureField("Password", text: $passwordText)
                    
                 Rectangle()
                     .frame(height: 1)
