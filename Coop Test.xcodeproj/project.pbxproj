@@ -1,0 +1,725 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5EBE4AD52BFF426900DA7523 /* Coop_TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBE4AD42BFF426900DA7523 /* Coop_TestApp.swift */; };
+		5EBE4AD72BFF426900DA7523 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBE4AD62BFF426900DA7523 /* ContentView.swift */; };
+		5EBE4AD92BFF426C00DA7523 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EBE4AD82BFF426C00DA7523 /* Assets.xcassets */; };
+		5EBE4ADC2BFF426C00DA7523 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EBE4ADB2BFF426C00DA7523 /* Preview Assets.xcassets */; };
+		5EBE4AE62BFF426D00DA7523 /* Coop_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBE4AE52BFF426D00DA7523 /* Coop_TestTests.swift */; };
+		5EBE4AF02BFF426D00DA7523 /* Coop_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBE4AEF2BFF426D00DA7523 /* Coop_TestUITests.swift */; };
+		5EBE4AF22BFF426D00DA7523 /* Coop_TestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBE4AF12BFF426D00DA7523 /* Coop_TestUITestsLaunchTests.swift */; };
+		5EBE4B0A2BFF46A200DA7523 /* Muli-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5EBE4B002BFF46A200DA7523 /* Muli-Italic.ttf */; };
+		5EBE4B0B2BFF46A200DA7523 /* Muli-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5EBE4B012BFF46A200DA7523 /* Muli-ExtraLight.ttf */; };
+		5EBE4B0C2BFF46A200DA7523 /* Muli-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5EBE4B022BFF46A200DA7523 /* Muli-LightItalic.ttf */; };
+		5EBE4B0D2BFF46A200DA7523 /* Muli-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5EBE4B032BFF46A200DA7523 /* Muli-Bold.ttf */; };
+		5EBE4B0E2BFF46A200DA7523 /* Muli-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5EBE4B042BFF46A200DA7523 /* Muli-ExtraLightItalic.ttf */; };
+		5EBE4B0F2BFF46A200DA7523 /* Muli-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5EBE4B052BFF46A200DA7523 /* Muli-SemiBold.ttf */; };
+		5EBE4B102BFF46A200DA7523 /* Muli-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5EBE4B062BFF46A200DA7523 /* Muli-BoldItalic.ttf */; };
+		5EBE4B112BFF46A200DA7523 /* Muli.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5EBE4B072BFF46A200DA7523 /* Muli.ttf */; };
+		5EBE4B122BFF46A200DA7523 /* Muli-Semi-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5EBE4B082BFF46A200DA7523 /* Muli-Semi-BoldItalic.ttf */; };
+		5EBE4B132BFF46A200DA7523 /* Muli-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5EBE4B092BFF46A200DA7523 /* Muli-Light.ttf */; };
+		5EBE4B1C2BFF4B8300DA7523 /* NavigationStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBE4B1B2BFF4B8300DA7523 /* NavigationStateManager.swift */; };
+		5EBE4B1E2BFF4BCA00DA7523 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBE4B1D2BFF4BCA00DA7523 /* LoginView.swift */; };
+		5EBE4B202BFF4C6F00DA7523 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBE4B1F2BFF4C6F00DA7523 /* HomeView.swift */; };
+		5EBE4B222BFF4E8D00DA7523 /* ImagesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBE4B212BFF4E8D00DA7523 /* ImagesResponse.swift */; };
+		5EBE4B242BFF4ECB00DA7523 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBE4B232BFF4ECB00DA7523 /* NetworkManager.swift */; };
+		5EBE4B262BFF4F2D00DA7523 /* ImagesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBE4B252BFF4F2D00DA7523 /* ImagesViewModel.swift */; };
+		5EBE4B282BFF50CE00DA7523 /* ItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBE4B272BFF50CE00DA7523 /* ItemDetailView.swift */; };
+		5EBE4B2A2BFF518000DA7523 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBE4B292BFF518000DA7523 /* ImageLoader.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5EBE4AE22BFF426D00DA7523 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EBE4AC92BFF426900DA7523 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EBE4AD02BFF426900DA7523;
+			remoteInfo = "Coop Test";
+		};
+		5EBE4AEC2BFF426D00DA7523 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EBE4AC92BFF426900DA7523 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EBE4AD02BFF426900DA7523;
+			remoteInfo = "Coop Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5EBE4AD12BFF426900DA7523 /* Coop Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coop Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EBE4AD42BFF426900DA7523 /* Coop_TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coop_TestApp.swift; sourceTree = "<group>"; };
+		5EBE4AD62BFF426900DA7523 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5EBE4AD82BFF426C00DA7523 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5EBE4ADB2BFF426C00DA7523 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5EBE4AE12BFF426D00DA7523 /* Coop TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coop TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EBE4AE52BFF426D00DA7523 /* Coop_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coop_TestTests.swift; sourceTree = "<group>"; };
+		5EBE4AEB2BFF426D00DA7523 /* Coop TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coop TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EBE4AEF2BFF426D00DA7523 /* Coop_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coop_TestUITests.swift; sourceTree = "<group>"; };
+		5EBE4AF12BFF426D00DA7523 /* Coop_TestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coop_TestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5EBE4B002BFF46A200DA7523 /* Muli-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Muli-Italic.ttf"; sourceTree = "<group>"; };
+		5EBE4B012BFF46A200DA7523 /* Muli-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Muli-ExtraLight.ttf"; sourceTree = "<group>"; };
+		5EBE4B022BFF46A200DA7523 /* Muli-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Muli-LightItalic.ttf"; sourceTree = "<group>"; };
+		5EBE4B032BFF46A200DA7523 /* Muli-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Muli-Bold.ttf"; sourceTree = "<group>"; };
+		5EBE4B042BFF46A200DA7523 /* Muli-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Muli-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		5EBE4B052BFF46A200DA7523 /* Muli-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Muli-SemiBold.ttf"; sourceTree = "<group>"; };
+		5EBE4B062BFF46A200DA7523 /* Muli-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Muli-BoldItalic.ttf"; sourceTree = "<group>"; };
+		5EBE4B072BFF46A200DA7523 /* Muli.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Muli.ttf; sourceTree = "<group>"; };
+		5EBE4B082BFF46A200DA7523 /* Muli-Semi-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Muli-Semi-BoldItalic.ttf"; sourceTree = "<group>"; };
+		5EBE4B092BFF46A200DA7523 /* Muli-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Muli-Light.ttf"; sourceTree = "<group>"; };
+		5EBE4B142BFF46B500DA7523 /* Coop-Test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Coop-Test-Info.plist"; sourceTree = SOURCE_ROOT; };
+		5EBE4B1B2BFF4B8300DA7523 /* NavigationStateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStateManager.swift; sourceTree = "<group>"; };
+		5EBE4B1D2BFF4BCA00DA7523 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		5EBE4B1F2BFF4C6F00DA7523 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		5EBE4B212BFF4E8D00DA7523 /* ImagesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesResponse.swift; sourceTree = "<group>"; };
+		5EBE4B232BFF4ECB00DA7523 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		5EBE4B252BFF4F2D00DA7523 /* ImagesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesViewModel.swift; sourceTree = "<group>"; };
+		5EBE4B272BFF50CE00DA7523 /* ItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailView.swift; sourceTree = "<group>"; };
+		5EBE4B292BFF518000DA7523 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EBE4ACE2BFF426900DA7523 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EBE4ADE2BFF426D00DA7523 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EBE4AE82BFF426D00DA7523 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5EBE4AC82BFF426900DA7523 = {
+			isa = PBXGroup;
+			children = (
+				5EBE4AD32BFF426900DA7523 /* Coop Test */,
+				5EBE4AE42BFF426D00DA7523 /* Coop TestTests */,
+				5EBE4AEE2BFF426D00DA7523 /* Coop TestUITests */,
+				5EBE4AD22BFF426900DA7523 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5EBE4AD22BFF426900DA7523 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EBE4AD12BFF426900DA7523 /* Coop Test.app */,
+				5EBE4AE12BFF426D00DA7523 /* Coop TestTests.xctest */,
+				5EBE4AEB2BFF426D00DA7523 /* Coop TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EBE4AD32BFF426900DA7523 /* Coop Test */ = {
+			isa = PBXGroup;
+			children = (
+				5EBE4B152BFF4B2F00DA7523 /* Code */,
+				5EBE4B1A2BFF4B6B00DA7523 /* Helpers */,
+				5EBE4AFE2BFF468B00DA7523 /* Resources */,
+				5EBE4B142BFF46B500DA7523 /* Coop-Test-Info.plist */,
+				5EBE4AD42BFF426900DA7523 /* Coop_TestApp.swift */,
+				5EBE4AD62BFF426900DA7523 /* ContentView.swift */,
+				5EBE4AD82BFF426C00DA7523 /* Assets.xcassets */,
+				5EBE4ADA2BFF426C00DA7523 /* Preview Content */,
+			);
+			path = "Coop Test";
+			sourceTree = "<group>";
+		};
+		5EBE4ADA2BFF426C00DA7523 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5EBE4ADB2BFF426C00DA7523 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5EBE4AE42BFF426D00DA7523 /* Coop TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				5EBE4AE52BFF426D00DA7523 /* Coop_TestTests.swift */,
+			);
+			path = "Coop TestTests";
+			sourceTree = "<group>";
+		};
+		5EBE4AEE2BFF426D00DA7523 /* Coop TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5EBE4AEF2BFF426D00DA7523 /* Coop_TestUITests.swift */,
+				5EBE4AF12BFF426D00DA7523 /* Coop_TestUITestsLaunchTests.swift */,
+			);
+			path = "Coop TestUITests";
+			sourceTree = "<group>";
+		};
+		5EBE4AFE2BFF468B00DA7523 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5EBE4AFF2BFF469600DA7523 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5EBE4AFF2BFF469600DA7523 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5EBE4B032BFF46A200DA7523 /* Muli-Bold.ttf */,
+				5EBE4B062BFF46A200DA7523 /* Muli-BoldItalic.ttf */,
+				5EBE4B012BFF46A200DA7523 /* Muli-ExtraLight.ttf */,
+				5EBE4B042BFF46A200DA7523 /* Muli-ExtraLightItalic.ttf */,
+				5EBE4B002BFF46A200DA7523 /* Muli-Italic.ttf */,
+				5EBE4B092BFF46A200DA7523 /* Muli-Light.ttf */,
+				5EBE4B022BFF46A200DA7523 /* Muli-LightItalic.ttf */,
+				5EBE4B082BFF46A200DA7523 /* Muli-Semi-BoldItalic.ttf */,
+				5EBE4B052BFF46A200DA7523 /* Muli-SemiBold.ttf */,
+				5EBE4B072BFF46A200DA7523 /* Muli.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		5EBE4B152BFF4B2F00DA7523 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				5EBE4B192BFF4B5300DA7523 /* Models */,
+				5EBE4B172BFF4B4400DA7523 /* Views */,
+				5EBE4B182BFF4B4A00DA7523 /* ViewModels */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		5EBE4B172BFF4B4400DA7523 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5EBE4B1D2BFF4BCA00DA7523 /* LoginView.swift */,
+				5EBE4B1F2BFF4C6F00DA7523 /* HomeView.swift */,
+				5EBE4B272BFF50CE00DA7523 /* ItemDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5EBE4B182BFF4B4A00DA7523 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				5EBE4B252BFF4F2D00DA7523 /* ImagesViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		5EBE4B192BFF4B5300DA7523 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5EBE4B212BFF4E8D00DA7523 /* ImagesResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5EBE4B1A2BFF4B6B00DA7523 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				5EBE4B1B2BFF4B8300DA7523 /* NavigationStateManager.swift */,
+				5EBE4B232BFF4ECB00DA7523 /* NetworkManager.swift */,
+				5EBE4B292BFF518000DA7523 /* ImageLoader.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5EBE4AD02BFF426900DA7523 /* Coop Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EBE4AF52BFF426D00DA7523 /* Build configuration list for PBXNativeTarget "Coop Test" */;
+			buildPhases = (
+				5EBE4ACD2BFF426900DA7523 /* Sources */,
+				5EBE4ACE2BFF426900DA7523 /* Frameworks */,
+				5EBE4ACF2BFF426900DA7523 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Coop Test";
+			productName = "Coop Test";
+			productReference = 5EBE4AD12BFF426900DA7523 /* Coop Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5EBE4AE02BFF426D00DA7523 /* Coop TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EBE4AF82BFF426D00DA7523 /* Build configuration list for PBXNativeTarget "Coop TestTests" */;
+			buildPhases = (
+				5EBE4ADD2BFF426D00DA7523 /* Sources */,
+				5EBE4ADE2BFF426D00DA7523 /* Frameworks */,
+				5EBE4ADF2BFF426D00DA7523 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EBE4AE32BFF426D00DA7523 /* PBXTargetDependency */,
+			);
+			name = "Coop TestTests";
+			productName = "Coop TestTests";
+			productReference = 5EBE4AE12BFF426D00DA7523 /* Coop TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5EBE4AEA2BFF426D00DA7523 /* Coop TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EBE4AFB2BFF426D00DA7523 /* Build configuration list for PBXNativeTarget "Coop TestUITests" */;
+			buildPhases = (
+				5EBE4AE72BFF426D00DA7523 /* Sources */,
+				5EBE4AE82BFF426D00DA7523 /* Frameworks */,
+				5EBE4AE92BFF426D00DA7523 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EBE4AED2BFF426D00DA7523 /* PBXTargetDependency */,
+			);
+			name = "Coop TestUITests";
+			productName = "Coop TestUITests";
+			productReference = 5EBE4AEB2BFF426D00DA7523 /* Coop TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EBE4AC92BFF426900DA7523 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					5EBE4AD02BFF426900DA7523 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					5EBE4AE02BFF426D00DA7523 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 5EBE4AD02BFF426900DA7523;
+					};
+					5EBE4AEA2BFF426D00DA7523 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 5EBE4AD02BFF426900DA7523;
+					};
+				};
+			};
+			buildConfigurationList = 5EBE4ACC2BFF426900DA7523 /* Build configuration list for PBXProject "Coop Test" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5EBE4AC82BFF426900DA7523;
+			productRefGroup = 5EBE4AD22BFF426900DA7523 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EBE4AD02BFF426900DA7523 /* Coop Test */,
+				5EBE4AE02BFF426D00DA7523 /* Coop TestTests */,
+				5EBE4AEA2BFF426D00DA7523 /* Coop TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5EBE4ACF2BFF426900DA7523 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EBE4B0F2BFF46A200DA7523 /* Muli-SemiBold.ttf in Resources */,
+				5EBE4B112BFF46A200DA7523 /* Muli.ttf in Resources */,
+				5EBE4B0D2BFF46A200DA7523 /* Muli-Bold.ttf in Resources */,
+				5EBE4B0E2BFF46A200DA7523 /* Muli-ExtraLightItalic.ttf in Resources */,
+				5EBE4B102BFF46A200DA7523 /* Muli-BoldItalic.ttf in Resources */,
+				5EBE4ADC2BFF426C00DA7523 /* Preview Assets.xcassets in Resources */,
+				5EBE4B0C2BFF46A200DA7523 /* Muli-LightItalic.ttf in Resources */,
+				5EBE4B0A2BFF46A200DA7523 /* Muli-Italic.ttf in Resources */,
+				5EBE4B122BFF46A200DA7523 /* Muli-Semi-BoldItalic.ttf in Resources */,
+				5EBE4AD92BFF426C00DA7523 /* Assets.xcassets in Resources */,
+				5EBE4B132BFF46A200DA7523 /* Muli-Light.ttf in Resources */,
+				5EBE4B0B2BFF46A200DA7523 /* Muli-ExtraLight.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EBE4ADF2BFF426D00DA7523 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EBE4AE92BFF426D00DA7523 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EBE4ACD2BFF426900DA7523 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EBE4AD72BFF426900DA7523 /* ContentView.swift in Sources */,
+				5EBE4AD52BFF426900DA7523 /* Coop_TestApp.swift in Sources */,
+				5EBE4B2A2BFF518000DA7523 /* ImageLoader.swift in Sources */,
+				5EBE4B262BFF4F2D00DA7523 /* ImagesViewModel.swift in Sources */,
+				5EBE4B282BFF50CE00DA7523 /* ItemDetailView.swift in Sources */,
+				5EBE4B222BFF4E8D00DA7523 /* ImagesResponse.swift in Sources */,
+				5EBE4B242BFF4ECB00DA7523 /* NetworkManager.swift in Sources */,
+				5EBE4B1E2BFF4BCA00DA7523 /* LoginView.swift in Sources */,
+				5EBE4B202BFF4C6F00DA7523 /* HomeView.swift in Sources */,
+				5EBE4B1C2BFF4B8300DA7523 /* NavigationStateManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EBE4ADD2BFF426D00DA7523 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EBE4AE62BFF426D00DA7523 /* Coop_TestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EBE4AE72BFF426D00DA7523 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EBE4AF02BFF426D00DA7523 /* Coop_TestUITests.swift in Sources */,
+				5EBE4AF22BFF426D00DA7523 /* Coop_TestUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5EBE4AE32BFF426D00DA7523 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EBE4AD02BFF426900DA7523 /* Coop Test */;
+			targetProxy = 5EBE4AE22BFF426D00DA7523 /* PBXContainerItemProxy */;
+		};
+		5EBE4AED2BFF426D00DA7523 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EBE4AD02BFF426900DA7523 /* Coop Test */;
+			targetProxy = 5EBE4AEC2BFF426D00DA7523 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5EBE4AF32BFF426D00DA7523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5EBE4AF42BFF426D00DA7523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5EBE4AF62BFF426D00DA7523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Coop Test/Preview Content\"";
+				DEVELOPMENT_TEAM = 8UEW7N49G8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Coop-Test-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.garbu.Coop-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5EBE4AF72BFF426D00DA7523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Coop Test/Preview Content\"";
+				DEVELOPMENT_TEAM = 8UEW7N49G8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Coop-Test-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.garbu.Coop-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5EBE4AF92BFF426D00DA7523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8UEW7N49G8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.garbu.Coop-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coop Test.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Coop Test";
+			};
+			name = Debug;
+		};
+		5EBE4AFA2BFF426D00DA7523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8UEW7N49G8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.garbu.Coop-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coop Test.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Coop Test";
+			};
+			name = Release;
+		};
+		5EBE4AFC2BFF426D00DA7523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8UEW7N49G8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.garbu.Coop-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Coop Test";
+			};
+			name = Debug;
+		};
+		5EBE4AFD2BFF426D00DA7523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8UEW7N49G8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.garbu.Coop-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Coop Test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5EBE4ACC2BFF426900DA7523 /* Build configuration list for PBXProject "Coop Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EBE4AF32BFF426D00DA7523 /* Debug */,
+				5EBE4AF42BFF426D00DA7523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EBE4AF52BFF426D00DA7523 /* Build configuration list for PBXNativeTarget "Coop Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EBE4AF62BFF426D00DA7523 /* Debug */,
+				5EBE4AF72BFF426D00DA7523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EBE4AF82BFF426D00DA7523 /* Build configuration list for PBXNativeTarget "Coop TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EBE4AF92BFF426D00DA7523 /* Debug */,
+				5EBE4AFA2BFF426D00DA7523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EBE4AFB2BFF426D00DA7523 /* Build configuration list for PBXNativeTarget "Coop TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EBE4AFC2BFF426D00DA7523 /* Debug */,
+				5EBE4AFD2BFF426D00DA7523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5EBE4AC92BFF426900DA7523 /* Project object */;
+}
