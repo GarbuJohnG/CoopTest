@@ -11,7 +11,7 @@ import Combine
 class NetworkManager {
     
     func fetchItems() -> AnyPublisher<[ImagesResponseElement], Error> {
-        guard let url = URL(string: "https://jsonplaceholder.typicode.com/posts") else {
+        guard let url = URL(string: Constants.URLs.baseUrl) else {
             return Fail(error: URLError(.badURL)).eraseToAnyPublisher()
         }
         
