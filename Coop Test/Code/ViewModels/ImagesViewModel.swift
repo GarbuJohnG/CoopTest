@@ -18,8 +18,10 @@ class ItemsViewModel: ObservableObject {
     private let networkManager = NetworkManager()
     
     func getItems() {
+        isLoading = true
         networkManager.fetchItems()
             .sink(receiveCompletion: { completion in
+                self.isLoading = false
                 if case .failure(let error) = completion {
                     self.errorMessage = error.localizedDescription
                 }
