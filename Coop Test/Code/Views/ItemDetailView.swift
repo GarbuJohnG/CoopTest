@@ -48,7 +48,7 @@ struct ItemDetailView: View {
             
             Text(item.body ?? "")
                 .font(.custom("Muli", size: 16))
-                .frame(width: UIScreen.main.bounds.width - 60)
+                .padding(20)
             
             Spacer()
             

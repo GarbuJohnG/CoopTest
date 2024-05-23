@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E8CB68E2BFF70D700C48AF7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8CB68D2BFF70D700C48AF7 /* Constants.swift */; };
 		5EBE4AD52BFF426900DA7523 /* Coop_TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBE4AD42BFF426900DA7523 /* Coop_TestApp.swift */; };
 		5EBE4AD72BFF426900DA7523 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBE4AD62BFF426900DA7523 /* ContentView.swift */; };
 		5EBE4AD92BFF426C00DA7523 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EBE4AD82BFF426C00DA7523 /* Assets.xcassets */; };
@@ -52,6 +53,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5E8CB68D2BFF70D700C48AF7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		5EBE4AD12BFF426900DA7523 /* Coop Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coop Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EBE4AD42BFF426900DA7523 /* Coop_TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coop_TestApp.swift; sourceTree = "<group>"; };
 		5EBE4AD62BFF426900DA7523 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -232,6 +234,7 @@
 		5EBE4B1A2BFF4B6B00DA7523 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				5E8CB68D2BFF70D700C48AF7 /* Constants.swift */,
 				5EBE4B1B2BFF4B8300DA7523 /* NavigationStateManager.swift */,
 				5EBE4B232BFF4ECB00DA7523 /* NetworkManager.swift */,
 				5EBE4B292BFF518000DA7523 /* ImageLoader.swift */,
@@ -380,6 +383,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5EBE4AD72BFF426900DA7523 /* ContentView.swift in Sources */,
+				5E8CB68E2BFF70D700C48AF7 /* Constants.swift in Sources */,
 				5EBE4AD52BFF426900DA7523 /* Coop_TestApp.swift in Sources */,
 				5EBE4B2A2BFF518000DA7523 /* ImageLoader.swift in Sources */,
 				5EBE4B262BFF4F2D00DA7523 /* ImagesViewModel.swift in Sources */,
