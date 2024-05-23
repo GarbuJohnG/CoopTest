@@ -9,6 +9,8 @@ import SwiftUI
 
 struct HomeView: View {
     
+    let username: String
+    
     @EnvironmentObject var navigationStateManager: NavigationStateManager
     
     @StateObject private var viewModel = ItemsViewModel()
@@ -27,7 +29,7 @@ struct HomeView: View {
                 
                 Spacer()
                 
-                Text("Hello Username")
+                Text("Hello \(username)")
                     .font(.custom("Muli-Bold", size: 16))
                 
                 Spacer()
@@ -89,6 +91,6 @@ struct HomeView: View {
     
 }
 
-#Preview {
-    HomeView()
-}
+//#Preview {
+//    HomeView()
+//}

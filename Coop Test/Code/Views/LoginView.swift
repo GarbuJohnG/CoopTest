@@ -11,7 +11,10 @@ struct LoginView: View {
     
     @EnvironmentObject var navigationStateManager: NavigationStateManager
     
-    @State private var searchText: String = ""
+    @State private var usernameText: String = ""
+    @State private var passwordText: String = ""
+    @State private var showingAlert: Bool = false
+    @State private var alertMessage: String = ""
     
     var body: some View {
         
@@ -65,7 +68,7 @@ struct LoginView: View {
                     .font(.custom("Muli-Bold", size: 16))
                     .foregroundColor(.black)
                     
-                TextField("Username", text: $searchText)
+                TextField("Username", text: $usernameText)
                 
                 Rectangle()
                     .frame(height: 1)
@@ -80,7 +83,7 @@ struct LoginView: View {
                     .font(.custom("Muli-Bold", size: 16))
                     .foregroundColor(.black)
                     
-                TextField("Password", text: $searchText)
+                TextField("Password", text: $passwordText)
                    
                 Rectangle()
                     .frame(height: 1)
@@ -93,7 +96,15 @@ struct LoginView: View {
             // MARK: - Button to Proceed
             
             Button(action: {
-                navigationStateManager.push(HomeView())
+                if usernameText.isEmpty {
+                    alertMessage = "Username should not be empty."
+                    showingAlert = true
+                } else if passwordText.count <= 6 {
+                    alertMessage = "Password should be more than 6 characters."
+                    showingAlert = true
+                } else {
+                    navigationStateManager.push(HomeView(username: usernameText))
+                }
             }) {
                 
                 Text("Log In")
@@ -103,9 +114,12 @@ struct LoginView: View {
                 
             }
             .frame(maxWidth: .infinity, maxHeight: 50)
-            .background(.accent)
+            .background(Color.accentColor)
             .cornerRadius(10)
             .padding()
+            .alert(isPresented: $showingAlert) {
+                Alert(title: Text("Validation Error"), message: Text(alertMessage), dismissButton: .default(Text("OK")))
+            }
             
         }
         
@@ -113,6 +127,6 @@ struct LoginView: View {
     
 }
 
-#Preview {
-    LoginView()
-}
+//#Preview {
+//    LoginView()
+//}
